@@ -16,6 +16,7 @@ public class App {
 
     System.out.println("How many children do you have? ");
     int amountOfChildren = in.nextInt();
+    // Validation for number of children worth 1/4 point
     if (amountOfChildren < 0)
     {
       amountOfChildren = 0;
